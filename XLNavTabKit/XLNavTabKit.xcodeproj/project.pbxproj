@@ -15,8 +15,7 @@
 		7B71489822E1AEA70018B3D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B71489722E1AEA70018B3D7 /* main.m */; };
 		7B7148A222E1AEA80018B3D7 /* XLNavTabKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7148A122E1AEA80018B3D7 /* XLNavTabKitTests.m */; };
 		7B7148AD22E1AEA80018B3D7 /* XLNavTabKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7148AC22E1AEA80018B3D7 /* XLNavTabKitUITests.m */; };
-		7B7148C022E1B3CC0018B3D7 /* XPRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7148BE22E1B3CC0018B3D7 /* XPRootNavigationController.m */; };
-		7B7148C122E1B3CC0018B3D7 /* ZBYLTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7148BF22E1B3CC0018B3D7 /* ZBYLTabbarController.m */; };
+		7B7148C722E1BC440018B3D7 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7148C622E1BC440018B3D7 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +52,8 @@
 		7B7148A822E1AEA80018B3D7 /* XLNavTabKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLNavTabKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7148AC22E1AEA80018B3D7 /* XLNavTabKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLNavTabKitUITests.m; sourceTree = "<group>"; };
 		7B7148AE22E1AEA80018B3D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B7148BC22E1B3CB0018B3D7 /* ZBYLTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBYLTabbarController.h; sourceTree = "<group>"; };
-		7B7148BD22E1B3CC0018B3D7 /* XPRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPRootNavigationController.h; sourceTree = "<group>"; };
-		7B7148BE22E1B3CC0018B3D7 /* XPRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPRootNavigationController.m; sourceTree = "<group>"; };
-		7B7148BF22E1B3CC0018B3D7 /* ZBYLTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBYLTabbarController.m; sourceTree = "<group>"; };
+		7B7148C522E1BC440018B3D7 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		7B7148C622E1BC440018B3D7 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,10 +147,8 @@
 		7B7148BB22E1AED60018B3D7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7B7148BD22E1B3CC0018B3D7 /* XPRootNavigationController.h */,
-				7B7148BE22E1B3CC0018B3D7 /* XPRootNavigationController.m */,
-				7B7148BC22E1B3CB0018B3D7 /* ZBYLTabbarController.h */,
-				7B7148BF22E1B3CC0018B3D7 /* ZBYLTabbarController.m */,
+				7B7148C522E1BC440018B3D7 /* Person.h */,
+				7B7148C622E1BC440018B3D7 /* Person.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -290,9 +285,8 @@
 			files = (
 				7B71488D22E1AEA50018B3D7 /* ViewController.m in Sources */,
 				7B71489822E1AEA70018B3D7 /* main.m in Sources */,
-				7B7148C122E1B3CC0018B3D7 /* ZBYLTabbarController.m in Sources */,
+				7B7148C722E1BC440018B3D7 /* Person.m in Sources */,
 				7B71488A22E1AEA50018B3D7 /* AppDelegate.m in Sources */,
-				7B7148C022E1B3CC0018B3D7 /* XPRootNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

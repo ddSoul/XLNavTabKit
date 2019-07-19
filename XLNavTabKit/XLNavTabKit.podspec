@@ -17,17 +17,18 @@ Pod::Spec.new do |spec|
 
   spec.name         = "XLNavTabKit"
   spec.version      = "0.0.2"
-  spec.summary      = "A short description of XLNavTabKit."
+  spec.summary      = "XLNavTabKit.导航栏tabbar控制器优化版"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = <<-DESC 
+                          导航栏tabbar控制器优化版
+                       DESC
 
-  spec.homepage     = "http://EXAMPLE/XLNavTabKit"
+  spec.homepage     = "https://github.com/ddSoul/XLNavTabKit.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -90,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "Classes", "XLNavTabKit/Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
